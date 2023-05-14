@@ -1,5 +1,34 @@
 body{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+.divTitulo video{
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    
+}
+.videosPequenios{
+    border-radius: 10px;
+} 
+.videosGrandes{
+    width: 500px;
+    height: 250px;
+}
+.divTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divCaract{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: blueviolet;
 }
