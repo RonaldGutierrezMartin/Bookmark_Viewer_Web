@@ -9,14 +9,22 @@ body{
     color: aliceblue;
     text-align: center;
     background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     
     /* background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%); */
 }
 h1{
     font-size: 80px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+hr{
+    border-style: dashed;
+    width: 700px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 #descBasica{
     font-size: 30px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .divTitulo video{
     width: 500px;
@@ -28,18 +36,26 @@ h1{
 .pCaract{
     font-size: 30px;
     margin: 30px;
-    
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .videosPequenios{
-    border-radius: 10px;
+    border-radius: 15px;
     width: 300;
     height: 400px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5);
 } 
+.videosPequenios:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255,0.5);
+    
+} 
 
 .videosGrandes{
     width: 400px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5);
+}
+.videosGrandes:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255,0.5);
 }
 .divTitulo{
     display: flex;
@@ -54,9 +70,11 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 40px 0px;
+    margin: 60px 0px;
+
     
 }
+
 .divCaract p{
     max-width: 500px;
 }
@@ -69,5 +87,46 @@ h1{
 }
 #gifDescargar{
     border-radius: 20px;
-    filter: hue-rotate(200deg);
+    filter: hue-rotate(60deg);
 }
+header{
+    display: flex;
+    align-items: center;
+    
+}
+#icono{
+    width: 120px;
+    height: 120px;
+    transition: all 0.3s;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0,0.3));
+    
+}
+#icono:hover{
+    filter: drop-shadow(0px 0px 3px white);
+}
+span{
+    color: #4061ba;
+    text-decoration: underline;
+}
+.spanClaros{
+    color: #d10057;
+    text-decoration: underline;
+}
+#pCreada{
+    
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+::-webkit-scrollbar{
+    width: 20px;
+} 
+::-webkit-scrollbar-track {
+    background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%);
+  }
+::-webkit-scrollbar-thumb {
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    border: 2px dashed rgb(137, 135, 135);
+    
+  }
