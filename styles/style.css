@@ -1,7 +1,22 @@
+
+
 body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0px 200px;
+    background-color: rgb(52, 51, 51);
+    color: aliceblue;
+    text-align: center;
+    background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%); 
+    
+    /* background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%); */
+}
+h1{
+    font-size: 80px;
+}
+#descBasica{
+    font-size: 30px;
 }
 .divTitulo video{
     width: 500px;
@@ -10,12 +25,21 @@ body{
     background-color: aquamarine;
     
 }
+.pCaract{
+    font-size: 30px;
+    margin: 30px;
+    
+}
 .videosPequenios{
     border-radius: 10px;
+    width: 300;
+    height: 400px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0,0.5);
 } 
+
 .videosGrandes{
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    border-radius: 10px;
 }
 .divTitulo{
     display: flex;
@@ -29,6 +53,21 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px;
-    background-color: blueviolet;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    
+}
+.divCaract p{
+    max-width: 500px;
+}
+#gifDescargar{
+    width: 70px;
+    height: 70px;
+}
+.divDescargar{
+    flex-direction: column;
+}
+#gifDescargar{
+    border-radius: 20px;
+    filter: hue-rotate(200deg);
 }
