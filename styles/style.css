@@ -176,7 +176,7 @@ span{
         font-size: 50px;
     }
     .divCaract {
-        max-width: 340px;
+        width: 340px;
     }
     hr{
         width: 250px;
@@ -216,8 +216,8 @@ span{
     }
     .videosPequenios{
         
-        width: 200;
-        height: 300px;
+        width: 300px;
+        height: 400px;
         
     } 
     header{
